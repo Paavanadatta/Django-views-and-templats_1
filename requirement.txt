@@ -1,0 +1,5 @@
+pymysql
+sqlclient
+pillow
+bootstrap4
+django_crispy_forms

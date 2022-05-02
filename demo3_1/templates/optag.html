@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operational tags</title>
+</head>
+<body>
+    <h1>This is explanation of operational tags</h1>
+    {% if var in 'hello' %}
+    <h4>Variable value is hello</h4>
+    {% elif var in 'hi' %}
+    <h4>Variable value is hi</h4>
+    {% else %}
+    <h4>Variable value is kooi</h4>
+    {% endif %}
+
+    {% for i in res %}
+    <h5>{{i}}</h5>
+    {% endfor %}
+</body>
+</html>
